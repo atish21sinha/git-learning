@@ -1,0 +1,26 @@
+*{
+    margin:0;
+}
+
+.flag{
+    width: 60vw;
+    height: 40vh;
+    background-color: red;
+    position: relative;
+}
+
+.vertical{
+    position: absolute;
+    width: 8%;
+    height: 100%;
+    background-color: white;
+    left: 25%;   /* cross slightly left */
+}
+
+.horizontal{
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    top: 45%;
+}

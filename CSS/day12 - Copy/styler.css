@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 1rem;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    color: white;
+}
+.right button{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: red;
+    border: none;
+    padding-top: .3rem;
+    cursor: pointer;
+
+}
+.search{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+    
+    background-color: lightgrey;
+    
+}
+.searching{
+    width: 300px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    max-width: 60%;
+}
+.search> button{
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    
+}
+.Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bkg.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+.Hero>h2{
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+}
+.Hero>button{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+.mover{
+    text-align: center;
+    padding: 1rem;
+
+}
+.mover>h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.images{
+    height: 185px;
+    
+}
+.movie{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    
+}
+.card{
+    border: .5rem solid white;
+    background-color: white;
+    text-align: center;
+    margin-left: 1rem;
+    border: radius 1rem;
+
+}
+.card>h3{
+    font-size: 2rem;
+}
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bot>img{
+    max-width: 80%;
+}
+@media(max-width:650px)
+{
+
+}
